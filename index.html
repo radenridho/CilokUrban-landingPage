@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cilok Urban</title>
+    <link rel="stylesheet" href="dist/output.css">
+    
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-50">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg lg:text-2xl md:text-1xl text-primary block py-6">Cilok Urban</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="humburger" name="humberger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="humber-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="humber-line transition duration-300 ease-in-out"></span>
+                        <span class="humber-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#produck" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Product</a>
+                            </li>
+                            <li class="group">
+                                <a href="#galerry" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Gallery</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+   <!-- Hero Section Start -->
+    <section id="home" class="pt-36">    
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Selamat Datang! di <span class="block font-bold text-dark md:text-4xl text-2xl mt-1" id="cilok">Cilok Urban Bandung</span></h1>
+
+                     <h2 class="md:text-xl text-secondary text-md mt-1 mb-4">Dijamin Ketagihan | <span id="typing" class="font-bold text-sky-600 text-xl"></span></h2>
+
+                    <p class="text-sm md:text-lg text-slate-400 mb-10 leading-relaxed max-w-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus minus nihil et dicta qui repudiandae, ut reiciendis fugiat inventore hic!</p> 
+
+                    <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out mb-5">Pesan Sekarang!</a>
+                </div>
+
+                <div class="w-full self-end px-4 lg:w-1/2 mt-7 lg:mt-30 sm:mt-5 md:mt-8 relative">
+                    <div class="w-full h-full bg-primary absolute rounded-tl-full opacity-20 -z-10"></div>
+                    <div class="mt-32 lg:mt-9 lg:right-0 sm:mt-4 ">
+                        <img src="img/img1.png" alt="" class="max-w-full max-h-48 mx-auto animate-bounce cilok">
+                         <div class="flex flex-wrap mt-8">
+                            <ul class="flex lg:px-10 md:px-16 items-center ">
+                                <li class="lg:px-8 cursor-pointer hover:translate-y-2"><img src="img/thumb2.png" alt="" class="max-w-full" onclick="imgSlider('img/img2.png')"></li>
+                                <li class="px-8 md:px-14 cursor-pointer hover:translate-y-2"><img src="img/thumb3.png" alt="" class="max-w-full" onclick="imgSlider('img/img3.png')"></li>
+                                <li class="lg:px-8 cursor-pointer hover:translate-y-2"><img src="img/thumb1.png" alt="" class="max-w-full" onclick="imgSlider('img/img1.png')"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Hero Section End -->
+
+   <!-- About Section Start -->
+     <section id="about" class="pt-36 pb-32">
+         <div class="container">
+             <div class="flex flex-wrap">
+                 <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary mb-5 ">Tentang Kami!</h4>
+                    <p class="font-medium text-base text-secondary max-w-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur impedit, nihil quos quia est eligendi placeat enim perferendis ab repellat libero alias architecto molestiae aut laudantium sint, nulla cum itaque.</p>
+                 </div>
+                 <div class="w-full px-4 lg:w-1/2">
+                     <h3 class="font-semibold text-dark text-2xl mb-4">Sosial Media Kami!</h3>
+                     <p class="font-medium max-w-xl text-secondary mb-4">Info pemesanan & jangan lupa juga ikuti kami, dengan cara klik link di bawah!</p>
+                     <div class="flex items-center">
+                        <!-- WhatsApp -->
+                        <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-white border border-primary bg-primary  hover:border-teal-300 hover:text-white hover:bg-teal-700">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                        </a>
+
+                        <!-- Instagram -->
+                        <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-white border border-red-600 bg-red-600  hover:border-red-600 hover:text-white hover:bg-red-700">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                        </a>
+
+                        <!-- Shopee -->
+                        <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-white border border-black bg-black">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                        </a>
+
+                        <!-- twitter -->
+                        <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-white border border-sky-600 bg-sky-600  hover:border-sky-400 hover:text-white hover:bg-sky-400">
+                            <svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                        </a>
+
+                        <!-- Gojek -->
+                        <!-- <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-400 border border-slate-300  hover:border-green-600 hover:text-white hover:bg-green-600">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Grab</title><path d="M23.129 10.863a2.927 2.927 0 00-2.079-.872c-.57 0-1.141.212-1.455.421-.651.434-1.186.904-2.149 2.148v.894c.817-1.064 1.59-1.903 2.177-2.364.386-.31.933-.501 1.427-.501 1.275 0 2.352 1.077 2.352 2.352v.538c0 .63-.247 1.223-.698 1.668a2.341 2.341 0 01-1.654.685c-1.048 0-1.97-.719-2.22-1.701l-.422.51c.307 1.03 1.417 1.789 2.642 1.789.778 0 1.516-.31 2.079-.872.562-.562.871-1.3.871-2.079v-.538c0-.778-.31-1.517-.871-2.078m-12.8-.274c.406 0 .757.087 1.074.266.149-.186.299-.337.411-.449-.335-.256-.903-.415-1.485-.415-.83 0-1.584.3-2.122.843-.534.54-.83 1.287-.83 2.107v3.489h.598V12.94c0-1.385.968-2.352 2.354-2.352m5.678 5.84v-3.488c0-1.072-.84-1.913-1.913-1.913-.5 0-.976.203-1.343.57a1.895 1.895 0 00-.57 1.343v.538c0 1.037.877 1.913 1.913 1.913.285 0 .671-.07.908-.264v-.631c-.232.187-.57.298-.908.298a1.302 1.302 0 01-1.315-1.316v-.538a1.3 1.3 0 011.315-1.314 1.3 1.3 0 011.316 1.314v3.489zM0 12.596v.193c0 1.036.393 2.003 1.107 2.722a3.759 3.759 0 002.689 1.112c.82 0 1.548-.186 2.162-.551.506-.302.73-.607.75-.635V12.22H3.65v.597H6.11v2.434l-.002.002c-.288.288-.972.77-2.312.77a3.165 3.165 0 01-2.279-.938 3.247 3.247 0 01-.92-2.297v-.193c0-.83.375-1.656 1.026-2.269a3.558 3.558 0 012.442-.967c.847 0 1.438.129 1.913.416v-.67c-.494-.21-1.085-.305-1.913-.305C1.862 8.8 0 10.538 0 12.595m10.329-.968c.226 0 .419.037.571.112.075-.186.151-.339.262-.525-.162-.116-.549-.186-.833-.186-1.09 0-1.913.823-1.913 1.913v3.489h.598V12.94c0-.774.54-1.314 1.315-1.314m-4.351-.702v-.707c-.541-.29-1.131-.419-1.913-.419-.799 0-1.555.293-2.132.824-.577.532-.895 1.233-.895 1.972v.193c0 1.542 1.237 2.796 2.758 2.796 1.237 0 1.745-.405 1.874-.533v-1.794H3.65v.598h1.46v.899l-.005.001c-.187.075-.578.231-1.31.231-.58 0-1.122-.225-1.528-.636a2.203 2.203 0 01-.632-1.562v-.193c0-1.192 1.113-2.198 2.43-2.198.91 0 1.45.147 1.913.528m14.105 1.126c.27-.27.623-.424.967-.424.737 0 1.315.577 1.315 1.314v.538c0 .738-.578 1.316-1.315 1.316-.357 0-.702-.196-.972-.55a2.151 2.151 0 01-.418-1.12l-.484.591c.095.452.33.885.665 1.19.344.313.774.486 1.209.486a1.915 1.915 0 001.913-1.913v-.538c0-.499-.202-.977-.57-1.343a1.896 1.896 0 00-1.343-.57c-.316 0-.818.114-1.417.652l-.002.002c-.16.16-.536.536-.765.804-.384.42-.943 1.054-1.42 1.688v.933c.529-.68.833-1.06 1.33-1.634.445-.519.996-1.15 1.307-1.422m-8.939 1.428c0 .779.31 1.517.872 2.08a2.93 2.93 0 002.078.87c.33 0 .669-.07.908-.188v-.597c-.28.117-.618.188-.908.188-1.274 0-2.352-1.077-2.352-2.353v-.538c0-1.275 1.078-2.352 2.352-2.352a2.34 2.34 0 012.353 2.353v3.488h.598v-3.604a2.979 2.979 0 00-.915-2.006 2.92 2.92 0 00-2.036-.83c-.778 0-1.516.31-2.078.873a2.926 2.926 0 00-.872 2.078zm6.918-2.313c.183-.22.372-.443.596-.631V7.378h-.596zm1.037-.876V7.378h.597V9.88a3.601 3.601 0 00-.597.41"/></svg>
+                        </a> -->
+
+                        <!-- Shopee Food -->
+                        <!-- <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-400 border border-slate-300  hover:border-green-600 hover:text-white hover:bg-green-600">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Grab</title><path d="M23.129 10.863a2.927 2.927 0 00-2.079-.872c-.57 0-1.141.212-1.455.421-.651.434-1.186.904-2.149 2.148v.894c.817-1.064 1.59-1.903 2.177-2.364.386-.31.933-.501 1.427-.501 1.275 0 2.352 1.077 2.352 2.352v.538c0 .63-.247 1.223-.698 1.668a2.341 2.341 0 01-1.654.685c-1.048 0-1.97-.719-2.22-1.701l-.422.51c.307 1.03 1.417 1.789 2.642 1.789.778 0 1.516-.31 2.079-.872.562-.562.871-1.3.871-2.079v-.538c0-.778-.31-1.517-.871-2.078m-12.8-.274c.406 0 .757.087 1.074.266.149-.186.299-.337.411-.449-.335-.256-.903-.415-1.485-.415-.83 0-1.584.3-2.122.843-.534.54-.83 1.287-.83 2.107v3.489h.598V12.94c0-1.385.968-2.352 2.354-2.352m5.678 5.84v-3.488c0-1.072-.84-1.913-1.913-1.913-.5 0-.976.203-1.343.57a1.895 1.895 0 00-.57 1.343v.538c0 1.037.877 1.913 1.913 1.913.285 0 .671-.07.908-.264v-.631c-.232.187-.57.298-.908.298a1.302 1.302 0 01-1.315-1.316v-.538a1.3 1.3 0 011.315-1.314 1.3 1.3 0 011.316 1.314v3.489zM0 12.596v.193c0 1.036.393 2.003 1.107 2.722a3.759 3.759 0 002.689 1.112c.82 0 1.548-.186 2.162-.551.506-.302.73-.607.75-.635V12.22H3.65v.597H6.11v2.434l-.002.002c-.288.288-.972.77-2.312.77a3.165 3.165 0 01-2.279-.938 3.247 3.247 0 01-.92-2.297v-.193c0-.83.375-1.656 1.026-2.269a3.558 3.558 0 012.442-.967c.847 0 1.438.129 1.913.416v-.67c-.494-.21-1.085-.305-1.913-.305C1.862 8.8 0 10.538 0 12.595m10.329-.968c.226 0 .419.037.571.112.075-.186.151-.339.262-.525-.162-.116-.549-.186-.833-.186-1.09 0-1.913.823-1.913 1.913v3.489h.598V12.94c0-.774.54-1.314 1.315-1.314m-4.351-.702v-.707c-.541-.29-1.131-.419-1.913-.419-.799 0-1.555.293-2.132.824-.577.532-.895 1.233-.895 1.972v.193c0 1.542 1.237 2.796 2.758 2.796 1.237 0 1.745-.405 1.874-.533v-1.794H3.65v.598h1.46v.899l-.005.001c-.187.075-.578.231-1.31.231-.58 0-1.122-.225-1.528-.636a2.203 2.203 0 01-.632-1.562v-.193c0-1.192 1.113-2.198 2.43-2.198.91 0 1.45.147 1.913.528m14.105 1.126c.27-.27.623-.424.967-.424.737 0 1.315.577 1.315 1.314v.538c0 .738-.578 1.316-1.315 1.316-.357 0-.702-.196-.972-.55a2.151 2.151 0 01-.418-1.12l-.484.591c.095.452.33.885.665 1.19.344.313.774.486 1.209.486a1.915 1.915 0 001.913-1.913v-.538c0-.499-.202-.977-.57-1.343a1.896 1.896 0 00-1.343-.57c-.316 0-.818.114-1.417.652l-.002.002c-.16.16-.536.536-.765.804-.384.42-.943 1.054-1.42 1.688v.933c.529-.68.833-1.06 1.33-1.634.445-.519.996-1.15 1.307-1.422m-8.939 1.428c0 .779.31 1.517.872 2.08a2.93 2.93 0 002.078.87c.33 0 .669-.07.908-.188v-.597c-.28.117-.618.188-.908.188-1.274 0-2.352-1.077-2.352-2.353v-.538c0-1.275 1.078-2.352 2.352-2.352a2.34 2.34 0 012.353 2.353v3.488h.598v-3.604a2.979 2.979 0 00-.915-2.006 2.92 2.92 0 00-2.036-.83c-.778 0-1.516.31-2.078.873a2.926 2.926 0 00-.872 2.078zm6.918-2.313c.183-.22.372-.443.596-.631V7.378h-.596zm1.037-.876V7.378h.597V9.88a3.601 3.601 0 00-.597.41"/></svg>
+                        </a> -->
+
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+   <!-- About Section End -->
+
+   <!-- Product Section Start -->
+     <section id="produck" class="pt-36 pb-16 bg-slate-700 bg-opacity-80">
+        <div class="container">
+                <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto text-center mb-16">
+                        <h4 class="font-semibold text-lg text-primary mb-2">Produk Kami</h4>
+                        <p class="font-medium text-md text-dark mb-2">Berikut adalah produk-produk kami!</p>
+                    </div>
+                </div>
+                <div class="w-full px-4 flex flex-wrap justify-center">
+                    <div class="mb-12 p-4 md:w-1/2">
+                        <div class="rounded-2xl shadow-md overflow-hidden ">
+                            <img src="https://source.unsplash.com/600x300?drink" alt="" class="w-full rounded-2xl">
+                        </div>
+                        <h2 class="font-semibold text-xl text-white mt-5 mb-3">Cilok Kering & Sambal Kacang</h2>
+                        <p class="font-medium text-base text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores sunt voluptates porro cum ex corrupti explicabo repudiandae quos facere incidunt?</p>
+                    </div>
+                    <div class="mb-12 p-4 md:w-1/2">
+                        <div class="rounded-2xl shadow-md overflow-hidden ">
+                            <img src="https://source.unsplash.com/600x300?food" alt="" class="w-full rounded-2xl">
+                        </div>
+                        <h2 class="font-semibold text-xl text-white mt-5 mb-3">Cilok Kuah & Sambal Cabe</h2>
+                        <p class="font-medium text-base text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores sunt voluptates porro cum ex corrupti explicabo repudiandae quos facere incidunt?</p>
+                    </div>
+                    <div class="mb-12 p-4 md:w-1/2">
+                        <div class="rounded-2xl shadow-md overflow-hidden ">
+                            <img src="https://source.unsplash.com/600x300?tea" alt="" class="w-full rounded-2xl">
+                        </div>
+                        <h2 class="font-semibold text-xl text-white mt-5 mb-3">Cilok Kuah & Sambal Kacang</h2>
+                        <p class="font-medium text-base text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores sunt voluptates porro cum ex corrupti explicabo repudiandae quos facere incidunt?</p>
+                    </div>
+                    <div class="mb-12 p-4 md:w-1/2">
+                        <div class="rounded-2xl shadow-md overflow-hidden ">
+                            <img src="https://source.unsplash.com/600x300?juice" alt="" class="w-full rounded-2xl">
+                        </div>
+                        <h2 class="font-semibold text-xl text-white mt-5 mb-3">Cilok Kering & Sambal Cabe</h2>
+                        <p class="font-medium text-base text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores sunt voluptates porro cum ex corrupti explicabo repudiandae quos facere incidunt?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+   <!-- Product Section End -->
+
+   <!-- Gallery Section Start -->
+     <section id="galerry" class="pt-36 pb-26">
+            <div class="p-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4 md:p-4">
+                <h2 class="h-15 text-xl font-semibold text-secondary md:col-start-4 md:row-start-2 md:flex"><span class="self-center"> My Galerry</span></h2>
+                <div class="h-15 text-lg font-bold text-primary md:col-start-2 md:row-start-2 md:flex">
+                    <span class="self-end">@cilokurban</span>
+                </div>
+
+                <div class="h-15 bg-primary aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                    <div class="w-full h-full bg-[url('/img/1.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
+                    </div>
+                </div>
+
+                <div class="h-15 bg-primary aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                    <div class="w-full h-full bg-[url('/img/2.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
+                    </div>
+                </div>
+
+                <div class="h-15 bg-primary aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                    <div class="w-full h-full bg-[url('/img/3.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
+                    </div>
+                </div>
+
+                <div class="h-15 bg-primary aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                    <div class="w-full h-full bg-[url('/img/4.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
+                    </div>
+                </div>
+
+                <div class="h-15 bg-primary aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                    <div class="w-full h-full bg-[url('/img/5.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
+                    </div>
+                </div>
+
+                <div class="h-15 bg-primary aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-2 overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                    <div class="w-full h-full bg-[url('/img/6.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
+                    </div>
+                </div>
+
+                <div class="h-15 bg-primary aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-4 overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                    <div class="w-full h-full bg-[url('/img/7.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
+                    </div>
+                </div>
+
+                <div class="h-15 bg-primary aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                    <div class="w-full h-full bg-[url('/img/8.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
+                    </div>
+                </div>
+
+                <div class="h-15 bg-primary aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                    <div class="w-full h-full bg-[url('/img/9.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
+                    </div>
+                </div>
+
+                <div class="h-15 bg-primary aspect-[4/3] rounded-lg md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                    <div class="w-full h-full bg-[url('/img/10.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
+                    </div>
+                </div>
+            </div>
+     </section> 
+   <!-- Galerry Section End -->
+
+   <!-- Footer Start -->
+     <footer class="bg-primary bg-opacity-80 pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-full items-center justify-center text-center">
+                    <h2 class="font-bold md:text-3xl text-2xl text-white mb-5">Cilok Urban Bandung</h2>
+                </div>
+                <div class="w-full px-8 mb-12 md:w-1/3 font-medium text-white">
+                    <h3 class="font-bold  md:text-2xl text-xl mb-2">Hubungi Kami!</h3>
+                    <p class="text-dark text-base">@cilokurban</p>
+                    <p class="text-dark text-base">Jln. Gagak, Kota Bandung</p>
+                </div>
+                <div class="w-full px-8 mb-12 md:w-1/3 font-medium block text-white">
+                    <h3 class="font-bold md:text-2xl text-xl mb-2">Pesan Sekarang!</h3>
+                    <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, officia! Qui, voluptates laboriosam! Assumenda sed quidem omnis consectetur? Voluptates, deserunt.</p>
+                    <div class="flex items-center md:px-10">
+                     <!-- Grab -->
+                     <a href="#" target="_blank" class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center text-white border border-green-600 bg-green-600  hover:border-green-600 hover:text-white hover:bg-green-700">
+                        <svg role="img" width="20" height="40" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Grab</title><path d="M23.129 10.863a2.927 2.927 0 00-2.079-.872c-.57 0-1.141.212-1.455.421-.651.434-1.186.904-2.149 2.148v.894c.817-1.064 1.59-1.903 2.177-2.364.386-.31.933-.501 1.427-.501 1.275 0 2.352 1.077 2.352 2.352v.538c0 .63-.247 1.223-.698 1.668a2.341 2.341 0 01-1.654.685c-1.048 0-1.97-.719-2.22-1.701l-.422.51c.307 1.03 1.417 1.789 2.642 1.789.778 0 1.516-.31 2.079-.872.562-.562.871-1.3.871-2.079v-.538c0-.778-.31-1.517-.871-2.078m-12.8-.274c.406 0 .757.087 1.074.266.149-.186.299-.337.411-.449-.335-.256-.903-.415-1.485-.415-.83 0-1.584.3-2.122.843-.534.54-.83 1.287-.83 2.107v3.489h.598V12.94c0-1.385.968-2.352 2.354-2.352m5.678 5.84v-3.488c0-1.072-.84-1.913-1.913-1.913-.5 0-.976.203-1.343.57a1.895 1.895 0 00-.57 1.343v.538c0 1.037.877 1.913 1.913 1.913.285 0 .671-.07.908-.264v-.631c-.232.187-.57.298-.908.298a1.302 1.302 0 01-1.315-1.316v-.538a1.3 1.3 0 011.315-1.314 1.3 1.3 0 011.316 1.314v3.489zM0 12.596v.193c0 1.036.393 2.003 1.107 2.722a3.759 3.759 0 002.689 1.112c.82 0 1.548-.186 2.162-.551.506-.302.73-.607.75-.635V12.22H3.65v.597H6.11v2.434l-.002.002c-.288.288-.972.77-2.312.77a3.165 3.165 0 01-2.279-.938 3.247 3.247 0 01-.92-2.297v-.193c0-.83.375-1.656 1.026-2.269a3.558 3.558 0 012.442-.967c.847 0 1.438.129 1.913.416v-.67c-.494-.21-1.085-.305-1.913-.305C1.862 8.8 0 10.538 0 12.595m10.329-.968c.226 0 .419.037.571.112.075-.186.151-.339.262-.525-.162-.116-.549-.186-.833-.186-1.09 0-1.913.823-1.913 1.913v3.489h.598V12.94c0-.774.54-1.314 1.315-1.314m-4.351-.702v-.707c-.541-.29-1.131-.419-1.913-.419-.799 0-1.555.293-2.132.824-.577.532-.895 1.233-.895 1.972v.193c0 1.542 1.237 2.796 2.758 2.796 1.237 0 1.745-.405 1.874-.533v-1.794H3.65v.598h1.46v.899l-.005.001c-.187.075-.578.231-1.31.231-.58 0-1.122-.225-1.528-.636a2.203 2.203 0 01-.632-1.562v-.193c0-1.192 1.113-2.198 2.43-2.198.91 0 1.45.147 1.913.528m14.105 1.126c.27-.27.623-.424.967-.424.737 0 1.315.577 1.315 1.314v.538c0 .738-.578 1.316-1.315 1.316-.357 0-.702-.196-.972-.55a2.151 2.151 0 01-.418-1.12l-.484.591c.095.452.33.885.665 1.19.344.313.774.486 1.209.486a1.915 1.915 0 001.913-1.913v-.538c0-.499-.202-.977-.57-1.343a1.896 1.896 0 00-1.343-.57c-.316 0-.818.114-1.417.652l-.002.002c-.16.16-.536.536-.765.804-.384.42-.943 1.054-1.42 1.688v.933c.529-.68.833-1.06 1.33-1.634.445-.519.996-1.15 1.307-1.422m-8.939 1.428c0 .779.31 1.517.872 2.08a2.93 2.93 0 002.078.87c.33 0 .669-.07.908-.188v-.597c-.28.117-.618.188-.908.188-1.274 0-2.352-1.077-2.352-2.353v-.538c0-1.275 1.078-2.352 2.352-2.352a2.34 2.34 0 012.353 2.353v3.488h.598v-3.604a2.979 2.979 0 00-.915-2.006 2.92 2.92 0 00-2.036-.83c-.778 0-1.516.31-2.078.873a2.926 2.926 0 00-.872 2.078zm6.918-2.313c.183-.22.372-.443.596-.631V7.378h-.596zm1.037-.876V7.378h.597V9.88a3.601 3.601 0 00-.597.41"/></svg>
+                    </a>
+                    <!-- Shopee -->
+                    <a href="#" target="_blank" class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center text-white border border-orange-600 bg-orange-600  hover:border-orange-600 hover:text-white hover:bg-orange-700">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Shopee</title><path d="M15.9414 17.9633c.229-1.879-.981-3.077-4.1758-4.0969-1.548-.528-2.277-1.22-2.26-2.1719.065-1.056 1.048-1.825 2.352-1.85a5.2898 5.2898 0 0 1 2.8838.89c.116.072.197.06.263-.039.09-.145.315-.494.39-.62.051-.081.061-.187-.068-.281-.185-.1369-.704-.4149-.983-.5319a6.4697 6.4697 0 0 0-2.5118-.514c-1.909.008-3.4129 1.215-3.5389 2.826-.082 1.1629.494 2.1078 1.73 2.8278.262.152 1.6799.716 2.2438.892 1.774.552 2.695 1.5419 2.478 2.6969-.197 1.047-1.299 1.7239-2.818 1.7439-1.2039-.046-2.2878-.537-3.1278-1.19l-.141-.11c-.104-.08-.218-.075-.287.03-.05.077-.376.547-.458.67-.077.108-.035.168.045.234.35.293.817.613 1.134.775a6.7097 6.7097 0 0 0 2.8289.727 4.9048 4.9048 0 0 0 2.0759-.354c1.095-.465 1.8029-1.394 1.9449-2.554zM11.9986 1.4009c-2.068 0-3.7539 1.95-3.8329 4.3899h7.6657c-.08-2.44-1.765-4.3899-3.8328-4.3899zm7.8516 22.5981-.08.001-15.7843-.002c-1.074-.04-1.863-.91-1.971-1.991l-.01-.195L1.298 6.2858a.459.459 0 0 1 .45-.494h4.9748C6.8448 2.568 9.1607 0 11.9996 0c2.8388 0 5.1537 2.5689 5.2757 5.7898h4.9678a.459.459 0 0 1 .458.483l-.773 15.5883-.007.131c-.094 1.094-.979 1.9769-2.0709 2.0059z"/></svg>
+                    </a>
+                    </div>
+                </div>
+                <div class="w-full px-8 mb-12 md:w-1/3 font-medium block text-white">
+                    <h2 class="font-bold md:text-2xl text-xl mb-2">Tautan</h2>
+                    <div class="flex items-center">
+                        <ul>
+                            <li><a href="#" class="text-dark text-base hover:text-red-600 inline-block mb-3">Home</a></li>
+                            <li><a href="#" class="text-dark text-base hover:text-red-600 inline-block mb-3">About</a></li>
+                            <li><a href="#" class="text-dark text-base hover:text-red-600 inline-block mb-3">Produt</a></li>
+                            <li><a href="#" class="text-dark text-base hover:text-red-600 inline-block mb-3">Gallery</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-800">
+                
+            </div>
+        </div>
+     </footer>
+   <!-- Footer End -->
+
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed("#typing", {
+        strings : ["Gurih", "Nikmat", "Pedas"], 
+        typeSpeed: 150,
+        backSpeed: 70,
+        loop: true
+        });  
+    </script>
+    <script type="text/javascript" src="dist/js/script.js"></script>
+</body>
+</html>
